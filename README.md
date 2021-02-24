@@ -1,6 +1,7 @@
 # Service
 
 Creating a bound service
+
 To create a bound service, implement the onBind() callback method to return an IBinder that defines the interface for communication with the service. 
 Other application components can then call bindService() to retrieve the interface and begin calling methods on the service.
 
