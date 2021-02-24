@@ -12,4 +12,6 @@ When there are no clients bound to the service, the system destroys the service.
 In case of Local Binding, Beginning with Android 5.0 (API level 21), the system throws an exception if you call bindService () with an implicit intent.
 IllegalArgumentException: Service intent must be explicit.
 
+You can ensure that your service is available to only your app by including the android: exported attribute and setting it to false.
+
 
