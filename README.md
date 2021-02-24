@@ -10,5 +10,6 @@ When a client is done interacting with the service, it calls unbindService() to 
 When there are no clients bound to the service, the system destroys the service.
 
 In case of Local Binding, Beginning with Android 5.0 (API level 21), the system throws an exception if you call bindService () with an implicit intent.
+IllegalArgumentException: Service intent must be explicit.
 
 
